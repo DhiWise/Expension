@@ -199,16 +199,19 @@ class ExpenseTransactionDetailsScreen
                                                                         .copyWith(fontSize: getFontSize(14))))),
                                                         Padding(
                                                             padding: EdgeInsets.only(
-                                                                left:
-                                                                    getHorizontalSize(
-                                                                        10.00),
+                                                                left: getHorizontalSize(
+                                                                    10.00),
                                                                 top: getVerticalSize(
                                                                     8.00),
                                                                 right:
                                                                     getHorizontalSize(
                                                                         10.00)),
-                                                            child: Text(
-                                                                "lbl_85_002".tr,
+                                                            child: Obx(() => Text(
+                                                                controller
+                                                                    .expenseTransactionDetailsModelObj
+                                                                    .value
+                                                                    .k8500Txt
+                                                                    .value,
                                                                 overflow:
                                                                     TextOverflow
                                                                         .ellipsis,
@@ -218,8 +221,7 @@ class ExpenseTransactionDetailsScreen
                                                                 style: AppStyle
                                                                     .textstyleintersemibold24
                                                                     .copyWith(
-                                                                        fontSize:
-                                                                            getFontSize(24)))),
+                                                                        fontSize: getFontSize(24))))),
                                                         Padding(
                                                             padding: EdgeInsets.only(
                                                                 left:
@@ -354,9 +356,12 @@ class ExpenseTransactionDetailsScreen
                                                                           .textstyleintermedium162
                                                                           .copyWith(
                                                                               fontSize: getFontSize(16))),
-                                                                  Text(
-                                                                      "lbl_claire_jovalski"
-                                                                          .tr,
+                                                                  Obx(() => Text(
+                                                                      controller
+                                                                          .expenseTransactionDetailsModelObj
+                                                                          .value
+                                                                          .claireJovalskiTxt
+                                                                          .value,
                                                                       overflow:
                                                                           TextOverflow
                                                                               .ellipsis,
@@ -366,7 +371,7 @@ class ExpenseTransactionDetailsScreen
                                                                       style: AppStyle
                                                                           .textstyleintermedium161
                                                                           .copyWith(
-                                                                              fontSize: getFontSize(16)))
+                                                                              fontSize: getFontSize(16))))
                                                                 ])),
                                                         Padding(
                                                             padding: EdgeInsets.only(
@@ -452,9 +457,12 @@ class ExpenseTransactionDetailsScreen
                                                                           .textstyleintermedium162
                                                                           .copyWith(
                                                                               fontSize: getFontSize(16))),
-                                                                  Text(
-                                                                      "lbl_feb_29_2022"
-                                                                          .tr,
+                                                                  Obx(() => Text(
+                                                                      controller
+                                                                          .expenseTransactionDetailsModelObj
+                                                                          .value
+                                                                          .feb292022Txt
+                                                                          .value,
                                                                       overflow:
                                                                           TextOverflow
                                                                               .ellipsis,
@@ -464,7 +472,7 @@ class ExpenseTransactionDetailsScreen
                                                                       style: AppStyle
                                                                           .textstyleintermedium161
                                                                           .copyWith(
-                                                                              fontSize: getFontSize(16)))
+                                                                              fontSize: getFontSize(16))))
                                                                 ])),
                                                         Container(
                                                             height:
