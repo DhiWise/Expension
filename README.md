@@ -16,6 +16,8 @@
   </p>
 </div>
 
+![Figma Design](https://github.com/rakesh-purohit9/Expension/blob/main/Screenshot%20from%202022-06-23%2013-56-03.png)
+
 This application is build on MVVM architecture. 
 
 
