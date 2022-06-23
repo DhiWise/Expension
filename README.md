@@ -1,11 +1,14 @@
 
-# flutterexpension
+# Flutter Expension
 
 <div>
   <h1 align="center">Getting Started with Flutter 🚀 </h1>
   <strong>
     Generated with ❤️ from Dhiwise
   </strong>
+  <p>
+    A Flutter mobile application built completely using DhiWise and Supabase without coding single line of code. With 100% system generated code
+  </p>
   <p>
     This is the documentation of Flutter Applications.
     It holds all the info you need to get started with
