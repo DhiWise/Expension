@@ -50,11 +50,11 @@ class ExpenseTransactionDetailsController extends GetxController
           (response as List).map((e) => ExpensesModel.fromJson(e)).toList();
       if (expensesModel != null) {
         expenseTransactionDetailsModelObj.value.claireJovalskiTxt.value =
-            expensesModel.title!.toString();
+            '';
         expenseTransactionDetailsModelObj.value.k8500Txt.value =
-            expensesModel.amount!.toString();
+            '';
         expenseTransactionDetailsModelObj.value.feb292022Txt.value =
-            expensesModel.date!.toString();
+            '';
       }
     }
     Get.defaultDialog(
